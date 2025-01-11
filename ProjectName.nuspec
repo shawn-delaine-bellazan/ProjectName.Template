@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>ProjectName.Template</id>
+		<version>1.0.0</version>
+		<title>ProjectName Template</title>
+		<authors>Your Name</authors>
+		<owners>Your Name</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Template for ProjectName structure with gRPC, Blazor, and .NET Aspire</description>
+		<dependencies>
+			<group targetFramework="net9.0">
+				<!-- List any dependencies here -->
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="**\*.*" target="contentFiles/any/any" />
+	</files>
+</package>

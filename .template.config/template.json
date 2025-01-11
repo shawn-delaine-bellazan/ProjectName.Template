@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Your Name",
+  "classifications": [ "Web", "gRPC", "Blazor", "Aspire", "PromptEngineering" ],
+  "name": "ProjectName Template",
+  "identity": "ProjectName.Template",
+  "shortName": "projectname",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "ProjectName",
+  "preferNameDirectory": true,
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "replaces": "net8.0",
+      "datatype": "string",
+      "defaultValue": "net9.0"
+    }
+  },
+  "primaryOutputs": [
+    { "path": "src/ProjectName.AI/ProjectName.AI.csproj" },
+    { "path": "src/ProjectName.Api/ProjectName.Api.csproj" },
+    { "path": "src/ProjectName.Web/ProjectName.Web.csproj" },
+    { "path": "src/ProjectName.AppHost/ProjectName.AppHost.csproj" },
+    { "path": "src/ProjectName.ServiceDefaults/ProjectName.ServiceDefaults.csproj" }
+  ]
+}

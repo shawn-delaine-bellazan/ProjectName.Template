@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35617.110 d17.13
+VisualStudioVersion = 17.13.35617.110
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectName.AI", "src\ProjectName.AI\ProjectName.AI.csproj", "{22C30154-7730-431D-B49B-81B97614EAD5}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectName.ServiceDefaults", "src\ProjectName.ServiceDefaults\ProjectName.ServiceDefaults.csproj", "{0D4D072F-1B25-22E1-0514-AAA8357E0A20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectName.Web", "src\ProjectName.Web\ProjectName.Web.csproj", "{9AF5E156-E59B-4AE3-A103-9AE3F9C515EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectName.Test", "tests\ProjectName.Test\ProjectName.Test.csproj", "{EC7F805B-C30B-42AD-B0BD-4EA93511BA59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9AF5E156-E59B-4AE3-A103-9AE3F9C515EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AF5E156-E59B-4AE3-A103-9AE3F9C515EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AF5E156-E59B-4AE3-A103-9AE3F9C515EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7F805B-C30B-42AD-B0BD-4EA93511BA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7F805B-C30B-42AD-B0BD-4EA93511BA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7F805B-C30B-42AD-B0BD-4EA93511BA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7F805B-C30B-42AD-B0BD-4EA93511BA59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

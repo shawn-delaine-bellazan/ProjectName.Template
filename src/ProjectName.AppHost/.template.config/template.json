@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Shawn Delaine Bellazan Jr",
+  "classifications": [ "App Host", "Backend", "Service" ],
+  "name": "ProjectName.AppHost Template",
+  "identity": "ProjectName.AppHost.Template",
+  "shortName": "projectname-apphost",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "ProjectName.AppHost",
+  "preferNameDirectory": true,
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "replaces": "net8.0",
+      "datatype": "string",
+      "defaultValue": "net8.0"
+    }
+  }
+}

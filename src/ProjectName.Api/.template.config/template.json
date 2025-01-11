@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Shawn Delaine Bellazan Jr",
+  "classifications": [ "AI", "Machine Learning", "Services" ],
+  "name": "ProjectName.AI Template",
+  "identity": "ProjectName.AI.Template",
+  "shortName": "projectname-ai",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "ProjectName.AI",
+  "preferNameDirectory": true,
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "replaces": "net8.0",
+      "datatype": "string",
+      "defaultValue": "net9.0"
+    }
+  }
+}
